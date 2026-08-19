@@ -37,4 +37,4 @@ Reproducibility
 Posterior_samples_population.Rds
 Posterior_samples_patient_i.Rds
 with i = 1,2,3,4 for patient 1,2,3,4, respectively.
-<img width="468" height="654" alt="image" src="https://github.com/user-attachments/assets/5b6d9f34-4c5d-4355-9dfd-f18a2fe77a40" />
+
