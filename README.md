@@ -1,11 +1,12 @@
-A mechanistic digital twin model for epigenetic therapy optimization in triple-negative breast cancer 
+epitherapies
 
-This repository contains the codes used to develop and simulate digital twin model for epigenetic therapy optimization in triple-negative breast cancer , as presented in the associated manuscript.
+Codes associated with the paper "A mechanistic digital twin model for epigenetic therapy optimization in triple-negative breast cancer" by Bruno et al. More precisely, this repository contains the codes used to develop and simulate digital twin model for epigenetic therapy optimization in triple-negative breast cancer , as presented in the associated manuscript.
 The digital twin model integrates mechanistic modeling of chromatin dynamics and tumor progression with pharmacological inputs to study treatment effects, resistance mechanisms, and alternative therapeutic strategies.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Repository Structure
+Repository Structure:
+
 •	SB_Digital_Twin_Main_Model_Population.R
 Main digital twin model for combined epigenetic and signaling therapy (tazemetostat + ipatasertib) for population optimization
 
@@ -26,6 +27,7 @@ Pre-estimated parameters for the patient-specific study, with i = 1,2,3,4 for pa
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Setup
+
 Before running any script, you must update the output directories in each file:
 output_location <- "/Users/..."           # to be modified
 output_location_figures <- "/Users/..."  # to be modified
@@ -33,8 +35,9 @@ Set these paths to your desired local directories where results and figures will
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Reproducibility
+
 •	All simulations use estimated parameter values stored in:
-Posterior_samples_population.Rds
-Posterior_samples_patient_i.Rds
+    Posterior_samples_population.Rds
+    Posterior_samples_patient_i.Rds
 with i = 1,2,3,4 for patient 1,2,3,4, respectively.
 
