@@ -41,3 +41,8 @@ Reproducibility
     Posterior_samples_patient_i.Rds
 with i = 1,2,3,4 for patient 1,2,3,4, respectively.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Experimental data
+
+• The `data` folder contains the *in vitro* experimental data used to calibrate and validate the digital twin model (Fig. 2B–D of the main paper).
+
